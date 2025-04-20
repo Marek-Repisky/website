@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.104.2">
     <title>Cover Template · Bootstrap v5.2</title>
 
@@ -79,13 +78,14 @@
       <h3 class="float-md-start mb-0">Cover</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="<?=ROOT?>">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="<?=ROOT?>login">Login</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+        <a class="nav-link fw-bold py-1 px-0" href="<?=ROOT?>/login">Login</a>
+        <a class="nav-link fw-bold py-1 px-0" href="<?=ROOT?>/logout">Logout</a>
       </nav>
     </div>
   </header>
 
   <main class="px-3">
+    <h1>Hi, <?=$username?></h1>
     <h1>Cover your page.</h1>
     <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
     <p class="lead">

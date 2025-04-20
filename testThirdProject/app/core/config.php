@@ -8,7 +8,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     define('DBPASS', '');
     define('DBDRIVER', '');
 
-    define('ROOT', 'http://localhost/website/testThirdProject/public/');
+    define('ROOT', 'http://localhost/website/testThirdProject/public');
 } else {
     /** database config **/
     define('DBNAME', 'my_db');

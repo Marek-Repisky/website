@@ -6,10 +6,11 @@
 trait Model {
     use Database;
 
-    protected $limit = 10;
-    protected $offset = 0;
-    protected $order_type = "desc";
+    protected $limit        = 10;
+    protected $offset       = 0;
+    protected $order_type   = "desc";
     protected $order_column = "id";
+    public $errors       = [];
 
     public function findAll() {
         $query = "SELECT * FROM $this->table 
