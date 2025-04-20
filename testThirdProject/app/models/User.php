@@ -17,7 +17,7 @@ class User
     {
         $this->errors = [];
 
-        if (empty($data['errors']))
+        if (empty($data['email']))
         {
             $this->errors['email'] = "Email is required";
         } else if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL))
