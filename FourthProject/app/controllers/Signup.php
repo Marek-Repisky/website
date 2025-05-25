@@ -9,6 +9,8 @@ class Signup {
 
     public function index() 
     {
+        $user = new User();
+
         $this->view('signup');
     }
 

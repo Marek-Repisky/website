@@ -1,0 +1,20 @@
+{
+    "name": "dell/03_good",
+    "autoload": {
+        "psr-4": {
+            "Dell\\03Good\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DELL",
+            "email": "marek.repisky55313@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}

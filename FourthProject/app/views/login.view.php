@@ -72,7 +72,8 @@
 <main class="form-signin w-100 m-auto">
   <form method="post">
     <i class="h1 mb-4 bi bi-person-circle"></i>
-    <h1 class="h3 mb-3 fw-normal">Please log in</h1>
+    <h1 class="h3 mb-1 fw-normal"><?=APP_NAME?></h1>
+    <h2 class="h3 mb-3 fw-normal">Please login</h2>
 
     <div class="form-floating">
       <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">

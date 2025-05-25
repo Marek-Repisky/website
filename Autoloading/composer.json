@@ -1,0 +1,22 @@
+{
+    "name": "dell/autoloading",
+    "autoload": {
+        "psr-4": {
+            "Dell\\Autoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DELL",
+            "email": "marek.repisky55313@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
