@@ -71,6 +71,6 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
 				</tr>
 			<?php endforeach; ?>
 		</tbody>
-		</table>
+	</table>
   </body>
 </html>
